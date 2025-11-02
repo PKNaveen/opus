@@ -1,0 +1,29 @@
+name: Feature Request
+description: Suggest a new feature or improvement for the project
+title: 'Feature: [Short description]'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest a new feature! Please fill out the
+        template below as best you can.
+  - type: textarea
+    attributes:
+      label: Description
+      description: Provide a clear and concise description of the feature or improvement.
+      placeholder: Describe the feature here...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Rationale
+      description: Explain why this feature would be beneficial.
+      placeholder: Describe the rationale here...
+    validations:
+      required: true
+labels:
+  - enhancement
+  - area-backend
+  - area-frontend
+  - area-docs
+  - area-CI/CD
